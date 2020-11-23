@@ -1,0 +1,24 @@
+.form__input {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, .0);
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-weight: normal;
+  padding: 10px 0;
+  outline: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .form__input {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
