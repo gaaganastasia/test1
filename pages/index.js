@@ -17,3 +17,7 @@ const validateForm = (formVal) => {
 
 authorizationForm.reset();
 validateForm(formVal);
+
+document.querySelector('.form__submit').addEventListener('click', () => {
+  location.href = 'https://gaaganastasia.github.io/test2/'
+})
