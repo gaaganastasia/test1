@@ -1,7 +1,7 @@
 .form__container {
   position: absolute;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 0;
   height: 100%;
@@ -11,16 +11,12 @@
 
 @media screen and (max-width: 900px) {
   .form__container {
-    height: calc(100% - 180px * 2);
-    padding: 180px 0;
     flex-direction: column;
   }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1023px) {
   .form__container {
-    height: calc(100% - 160px * 2);
-    padding: 160px 0;
     flex-direction: column;
   }
 }
@@ -29,6 +25,7 @@
   .form__container {
     width: 90%;
     padding: 0 5%;
+    justify-content: space-between;
   }
 }
 
@@ -36,5 +33,6 @@
   .form__container {
     width: 80%;
     padding: 0 10%;
+    justify-content: space-between;
   }
 }
