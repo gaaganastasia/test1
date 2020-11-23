@@ -11,16 +11,16 @@
 
 @media screen and (max-width: 900px) {
   .form__container {
-    height: calc(100% - 110px * 2);
-    padding: 110px 0;
+    height: calc(100% - 180px * 2);
+    padding: 180px 0;
     flex-direction: column;
   }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1024px) {
+@media screen and (min-width: 900px) and (max-width: 1023px) {
   .form__container {
-    height: calc(100% - 120px * 2);
-    padding: 120px 0;
+    height: calc(100% - 160px * 2);
+    padding: 160px 0;
     flex-direction: column;
   }
 }
